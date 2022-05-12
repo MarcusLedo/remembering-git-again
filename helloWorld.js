@@ -13,3 +13,5 @@ var speakPerson = person.speak.bind(person);
 
 speakGlobal(); //this = global
 speakPerson();
+
+console.log("Collision!!");
