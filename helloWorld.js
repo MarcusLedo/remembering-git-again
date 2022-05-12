@@ -6,3 +6,10 @@ var person = {
 }
 
 person.speak();
+
+var speakGlobal = person.speak;
+
+var speakPerson = person.speak.bind(person);
+
+speakGlobal(); //this = global
+speakPerson();
