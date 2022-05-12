@@ -13,3 +13,11 @@ var speakPerson = person.speak.bind(person);
 
 speakGlobal(); //this = global
 speakPerson();
+
+<<<<<<< HEAD
+var cars = ['BMW', 'HONDA', 'FIAT', 'HYUNDAI'];
+
+cars.forEach((name, index) => console.log(index + 1 + '. ' + name));
+=======
+console.log("Collision!!");
+>>>>>>> main
